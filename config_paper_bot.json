@@ -1,0 +1,92 @@
+{
+  "bot_name": "Binance 9-Elite Scalper Paper Bot",
+  "telegram": {
+    "enabled": true,
+    "bot_token": "1875915326:AAFDXKjjTGaDUGfxPbmqpGLxeKuscCg4mpE",
+    "chat_id": "1411815277"
+  },
+  "slack": {
+    "enabled": false,
+    "webhook_url": ""
+  },
+  "capital_settings": {
+    "initial_capital_usd": 200.0,
+    "margin_per_trade_usd": 20.0,
+    "max_concurrent_positions": 8,
+    "max_safe_leverage": 20
+  },
+  "slippage_control": {
+    "enabled": true,
+    "max_slippage_pct": 0.25,
+    "notify_on_rejected_slippage": true
+  },
+  "entry_filters": {
+    "max_order_age_minutes": 5,
+    "ignore_preexisting_positions": true
+  },
+  "exit_safety": {
+    "consecutive_absence_confirmations": 3,
+    "cooldown_after_close_seconds": 120
+  },
+  "monitoring": {
+    "poll_interval_seconds": 1.5,
+    "heartbeat_interval_minutes": 5,
+    "public_health_url": "https://tracking-nxd-wa.fly.dev/health"
+  },
+  "target_traders": [
+    {
+      "name": "海上方舟",
+      "portfolio_id": "5121809002771580416",
+      "score": 9.4,
+      "style": "HFT 4 phút"
+    },
+    {
+      "name": "短线的king",
+      "portfolio_id": "5241753281755337728",
+      "score": 9.2,
+      "style": "Short Pump 48 phút"
+    },
+    {
+      "name": "玄冥二老",
+      "portfolio_id": "4908633203782592768",
+      "score": 9.2,
+      "style": "HFT 6 phút"
+    },
+    {
+      "name": "ElroyMolly",
+      "portfolio_id": "4995352820626030848",
+      "score": 9.0,
+      "style": "Day Trade 3.3h"
+    },
+    {
+      "name": "星辰社区-意钦",
+      "portfolio_id": "4788776444236355328",
+      "score": 8.9,
+      "style": "Day Trade 2.1h"
+    },
+    {
+      "name": "Fomo-扫单之王",
+      "portfolio_id": "5078808125094578945",
+      "score": 8.7,
+      "style": "HFT 7 phút"
+    },
+    {
+      "name": "星辰社区-海",
+      "portfolio_id": "5131925334830383361",
+      "score": 8.5,
+      "style": "Day Trade 1.6h"
+    },
+    {
+      "name": "五路财神的小公主",
+      "portfolio_id": "4662628079386208001",
+      "score": 8.4,
+      "style": "Scalp 5h"
+    },
+    {
+      "name": "Diamond-Hamsters",
+      "portfolio_id": "4300516091842181632",
+      "score": 8.0,
+      "style": "Swing 8.7h"
+    }
+  ]
+}
